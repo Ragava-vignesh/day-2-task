@@ -1,0 +1,33 @@
+🪟 window object
+Represents the browser window or tab that displays a web page.
+
+It's the global object in the browser—everything is part of it.
+
+Contains properties like:
+
+window.location → URL of the page
+
+window.alert() → shows a popup alert
+
+window.setTimeout() / setInterval()
+
+window.innerWidth / innerHeight → viewport size
+
+You can even reference global variables or functions via window.myFunction.
+
+📄 document object
+Represents the HTML content loaded in the browser window.
+
+It's a property of window:
+window.document === document ✅
+
+Used to interact with the DOM (Document Object Model)
+
+document.getElementById()
+
+document.querySelector()
+
+document.createElement()
+
+document.body, document.title, etc.
+
